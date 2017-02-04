@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E8ED4EE3-BCE5-573F-14C7-049FAA34C42B}</ProjectGuid>
+    <ProjectGuid>{421172FB-8E16-AC5F-4C6B-AB3CC8C72540}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -46,7 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Editor\GameCameraEditor.cs" />
+     <Compile Include="Assets\Editor\EnemyDesignerWindow.cs" />
+     <Compile Include="Assets\Editor\GameCameraEditor.cs" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -104,7 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{EBD5781E-7FFF-6583-5943-4F7DAF1544C5}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{063CC0E8-543F-752A-4D6E-0FE49A4150EE}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

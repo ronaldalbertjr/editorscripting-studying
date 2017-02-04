@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EBD5781E-7FFF-6583-5943-4F7DAF1544C5}</ProjectGuid>
+    <ProjectGuid>{063CC0E8-543F-752A-4D6E-0FE49A4150EE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,6 +49,16 @@
      <Compile Include="Assets\Scripts\CameraGizmos.cs" />
      <Compile Include="Assets\Scripts\GameCamera.cs" />
      <Compile Include="Assets\Scripts\GizmosScript.cs" />
+     <Compile Include="Assets\Scripts\Mage.cs" />
+     <Compile Include="Assets\Scripts\PistonBehaviour.cs" />
+     <Compile Include="Assets\Scripts\PistonState.cs" />
+     <Compile Include="Assets\Scripts\Rogue.cs" />
+     <Compile Include="Assets\Scripts\Types.cs" />
+     <Compile Include="Assets\Scripts\Warrior.cs" />
+     <Compile Include="Assets\resources\characterData\scripts\CharacterData.cs" />
+     <Compile Include="Assets\resources\characterData\scripts\MageData.cs" />
+     <Compile Include="Assets\resources\characterData\scripts\RogueData.cs" />
+     <Compile Include="Assets\resources\characterData\scripts\WarriorData.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
