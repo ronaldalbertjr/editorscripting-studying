@@ -38,7 +38,7 @@ public class GeneralSettings : EditorWindow
         }
     }
 
-    void DrawSettings( CharacterData charData)
+    void DrawSettings(CharacterData charData)
     {
         EditorGUILayout.BeginHorizontal();
         GUILayout.Label("Prefab:");
